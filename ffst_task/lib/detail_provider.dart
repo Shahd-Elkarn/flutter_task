@@ -16,4 +16,5 @@ class FavoriteProvider extends ChangeNotifier {
     _selectedTab = index;
     notifyListeners();
   }
+  
 }

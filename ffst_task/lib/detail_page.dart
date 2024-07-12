@@ -146,9 +146,9 @@ class _DetailPageState extends State<DetailPage> {
                     )
                     .toList(),
               ),
-              const SizedBox(
-                width: 3.93,
-              ),
+              // const SizedBox(
+              //   width: 3.93,
+              // ),
               const SizedBox(
                 height: 14,
               ),

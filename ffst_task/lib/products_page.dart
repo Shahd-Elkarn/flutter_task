@@ -42,9 +42,9 @@ class _ProductPageState extends State<ProductPage> {
     },
   ];
 
-  void toggleFavorite(int index) {
+  void favour(int idx) {
     setState(() {
-      products[index]['isFavorite'] = !products[index]['isFavorite'];
+      products[idx]['isFavorite'] = !products[idx]['isFavorite'];
     });
   }
 
@@ -173,7 +173,7 @@ class _ProductPageState extends State<ProductPage> {
               },
             ),
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.6,
+              height: MediaQuery.of(context).size.height ,
               child: GridView.builder(
                 padding: const EdgeInsets.all(10.0),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -274,7 +274,7 @@ class _ProductPageState extends State<ProductPage> {
                                   : Colors.black,
                               size: 24,
                             ),
-                            onPressed: () => toggleFavorite(i),
+                            onPressed: () => favour(i),
                           ),
                         ),
                         Positioned(
