@@ -99,7 +99,7 @@ class _ProductPageState extends State<ProductPage> {
                     InkWell(
                       onTap: () {
                         Provider.of<FavoriteProvider>(context, listen: false)
-                            .setSelectedTab(0);
+                            .SelectedTab(0);
                       },
                       child: Container(
                         alignment: Alignment.center,
@@ -117,7 +117,7 @@ class _ProductPageState extends State<ProductPage> {
                     InkWell(
                       onTap: () {
                         Provider.of<FavoriteProvider>(context, listen: false)
-                            .setSelectedTab(1);
+                            .SelectedTab(1);
                       },
                       child: Container(
                         alignment: Alignment.center,
@@ -135,7 +135,7 @@ class _ProductPageState extends State<ProductPage> {
                     InkWell(
                       onTap: () {
                         Provider.of<FavoriteProvider>(context, listen: false)
-                            .setSelectedTab(2);
+                            .SelectedTab(2);
                       },
                       child: Container(
                         alignment: Alignment.center,
@@ -153,7 +153,7 @@ class _ProductPageState extends State<ProductPage> {
                     InkWell(
                       onTap: () {
                         Provider.of<FavoriteProvider>(context, listen: false)
-                            .setSelectedTab(3);
+                            .SelectedTab(3);
                       },
                       child: Container(
                         alignment: Alignment.center,

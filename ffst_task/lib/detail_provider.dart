@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class FavoriteProvider extends ChangeNotifier {
   bool _isFavorite = false;
-  int _selectedTab = -1; 
+  int _selectedTab = 0; 
 
   bool get isFavorite => _isFavorite;
   int get selectedTab => _selectedTab; 
@@ -12,7 +12,7 @@ class FavoriteProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void setSelectedTab(int index) { 
+  void SelectedTab(int index) { 
     _selectedTab = index;
     notifyListeners();
   }
