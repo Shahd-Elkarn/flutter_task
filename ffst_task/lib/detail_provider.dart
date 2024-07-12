@@ -7,7 +7,7 @@ class FavoriteProvider extends ChangeNotifier {
   bool get isFavorite => _isFavorite;
   int get selectedTab => _selectedTab; 
 
-  void toggleFavorite() {
+  void favorite() {
     _isFavorite = !_isFavorite;
     notifyListeners();
   }
